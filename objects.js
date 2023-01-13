@@ -121,21 +121,21 @@ var email = [
   subject: "This is a test email",
   cc: "sally@email.com",
   read: true,
-  reply: false
+  reply: true
 },
 {
   sender: "greg@email.com",
   subject: "This is a test email",
   cc: "sam@email.com",
   read: false,
-  reply: true
+  reply: false
 },
 {
   sender: "wally@email.com",
   subject: "This is a test email",
   cc: "amber@email.com",
-  read: false,
-  reply: false
+  read: true,
+  reply: true
 }
 ];
 console.log(email)
